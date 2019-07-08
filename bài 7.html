@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = Number(prompt('Mời bạn nhập số : '));
+    doiViTri(number);
+    function doiViTri(number) {
+        let numberDao1 = number % 10;
+        let numberDao2 = Math.floor(number / 10);
+        alert('Số đảo là: ' + numberDao1+numberDao2);
+    }
+</script>
+</body>
+</html>

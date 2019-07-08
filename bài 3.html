@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = Number(prompt('Mời bạn nhập số : '));
+    giaiThua(number)
+    alert('Giai thừa của '+ number + ' là : '+ giaiThua(number));
+    function giaiThua(number) {
+        let giaiThua = 1;
+        for (i = 1; i <= number; i++){
+            giaiThua = giaiThua*i;
+        }
+        return giaiThua;
+    }
+
+</script>
+</body>
+</html>

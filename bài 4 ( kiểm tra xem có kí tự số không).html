@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = Number(prompt('Mời bạn nhập: '));
+    checkNumber(input)
+
+    function checkNumber(input) {
+        let kq = isNaN(input);
+        console.log(kq);
+        if (kq == false) {
+            alert('Đây là 1 số !!');
+        } else if (kq == true) {
+            alert('Đây là 1 chuỗi !!')
+        }
+    }
+</script>
+</body>
+</html>
